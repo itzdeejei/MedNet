@@ -1,0 +1,43 @@
+.popup{
+    position: fixed;
+    top: 10%;
+    left: 40%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: centre;
+    align-items: centre;
+    z-index: 9999;
+}
+
+.popup-inner{
+    position: relative;
+    padding: 32px;
+    width: 100%;
+    max-width: 640px;
+    background-color: white;
+}
+
+.popup-inner .close-btn{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    cursor: pointer;
+}
+
+.PopHead{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PopDes{
+    align-items: center;
+}
+
+.PopDet{
+    position: relative;
+    font-size: 30px;
+
+}
